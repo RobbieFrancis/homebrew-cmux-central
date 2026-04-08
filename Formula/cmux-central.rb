@@ -9,6 +9,7 @@ class CmuxCentral < Formula
   depends_on :macos
 
   def install
+    mkdir_p buildpath/"corepack-bin"
     system "corepack", "enable", "--install-directory", buildpath/"corepack-bin"
     ENV.prepend_path "PATH", buildpath/"corepack-bin"
     system "corepack", "prepare", "pnpm@latest", "--activate"
