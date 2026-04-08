@@ -1,8 +1,8 @@
 class CmuxCentral < Formula
   desc "Local-first P2P mesh dashboard for CMUX workspaces"
   homepage "https://github.com/RobbieFrancis/cmux-central"
-  url "https://github.com/RobbieFrancis/cmux-central/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  url "https://github.com/RobbieFrancis/cmux-central/archive/v0.1.0.tar.gz"
+  sha256 "8cc09dbd212bb2737ee8a1687a525cead6bd3de62f0925e948724df5f8a40c08"
   license "MIT"
 
   depends_on "node@22"
